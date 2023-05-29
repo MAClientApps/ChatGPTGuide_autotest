@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FF3CCBFF</color>
+    <color name="purple_500">#FF062747</color>
+    <color name="purple_700">#FF041c33</color>
+    <color name="teal_200">#FFA78FED</color>
+    <color name="teal_700">#FF774df2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFFF0000</color>
+
+    <color name="separator">#e0e0e0</color>
+    <color name="me_card_background">#774df2</color>
+    <color name="other_card_background">#eef1f6</color>
+    <color name="time_color">#C0C0C0</color>
+
+</resources>

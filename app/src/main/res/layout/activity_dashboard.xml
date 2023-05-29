@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".presentation.DashboardActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo_dash"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/layout_action"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_action"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/button_chatgpt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button"
+            android:background="@drawable/chatgpt"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/button_g_shift_labs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/g_shift_lab"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/button_help_test"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_height="@dimen/button"
+                android:background="@drawable/help_first"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/button_dev"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/dev"
+                android:layout_weight="1"/>
+            <ImageView
+                android:id="@+id/button_open_ai"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:layout_height="@dimen/button"
+                android:background="@drawable/open_ai"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
